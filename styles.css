@@ -1,0 +1,101 @@
+
+
+body {
+  background-color: black;
+}
+
+
+.header-content {
+  background-color: black;
+  height: 75px;
+  width: 100%;
+  color: white;
+  display: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+
+
+.header-content H1{
+  font-size: 30px;
+  letter-spacing: 9px;
+  
+}
+
+.header-content nav {
+  font-size: 13px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  width: 70%; 
+  padding-right: 15%;
+  
+}
+
+.header-content button {
+  width: 20px;
+  height: 15px;
+  background-color: white;
+  display: absolute;
+  top: 0px;
+  right: 0px;
+  
+  
+  
+  
+}
+
+.main {
+  width: 100vw;
+  height: calc(100vh - 75px);
+  background-color: black;
+  background-image: url(https://www.spacex.com/static/images/backgrounds/home_feature.webp);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  display: block;
+
+  
+  
+}
+
+.main-content {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 130px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#new {
+  padding-bottom: 20px;
+}
+
+#new-event {
+  font-size: 40px;
+  padding-bottom: 40px;
+  
+  
+}
+
+.main button {
+  width: 45%;
+  height: 200;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 20px 10px;
+}
+
